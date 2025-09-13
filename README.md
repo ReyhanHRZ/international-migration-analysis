@@ -40,7 +40,7 @@ The objective of this project is to make migration data sourced from the OECD/UN
 
 ---
 
-
+```
 # 3) Folder structure (in the project root)
 
 International Migration Stocks and Flows/
@@ -70,7 +70,7 @@ International Migration Stocks and Flows/
 │ └── analysis/eda.py
 ├── requirements.txt
 └── README.md
-
+```
 
 # 4) Reproducibility — step by step (Windows PowerShell example)
 
@@ -305,4 +305,5 @@ Contact & References
 
 Prepared by: Reyhan HOROZ— Junior Data Analyst / Engineer
 Email: reyhanhrz53@gmail.com
+
 LinkedIn: linkedin.com/in/reyhan-horoz-bb4839292
