@@ -14,9 +14,8 @@ This project uses OECD/UN data to build international migration metrics for the 
 6. SQL & EDA — Queries and sample output 
 7. Power BI — Report pages, visuals, required DAX measures  
 8. Data Quality — Issues found & numerical summaries  
-9. Key Findings (short, impactful)  
-10. Next Steps / Recommendations  
-11. License & Attribution
+9. Key Findings (short, impactful)   
+10. License & Attribution
 
 ---
 
@@ -317,6 +316,7 @@ Email: reyhanhrz53@gmail.com
 
 LinkedIn: linkedin.com/in/reyhan-horoz-bb4839292
 ```
+
 
 
 
