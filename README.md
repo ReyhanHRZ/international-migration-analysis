@@ -76,6 +76,7 @@ International Migration Stocks and Flows/
 
 **Preparation**
 ```powershell
+
 cd “C:\Users.........\International Migration Stocks and Flows”
 python -m venv .venv
 # If a PowerShell policy issue arises:
@@ -109,7 +110,7 @@ If you see a duplicate column name error, add duplicate-handling to the clean_da
 
 Temporarily remove or re-download corrupted .xlsx files (openpyxl style errors) from data/raw.
 
-
+```
 # 5) Important scripts — what they do
 
 src/ingest/ingest_all.py — reads xlsx/csv files in data/raw, cleans them, produces data/processed/*.parquet, and writes to the SQLite DB. (Cache: parquet)
@@ -126,6 +127,8 @@ src/analysis/eda.py — Automated EDA: Generates a sample global inflow trend gr
 6) SQL & EDA — important queries
 
 Note: Table names were loaded into the DB as *_clean. Verify the table name before running it with SELECT name FROM sqlite_master...
+
+```
 
     1) Determining the last year
 
@@ -181,7 +184,7 @@ Note: Table names were loaded into the DB as *_clean. Verify the table name befo
 
 
 (Other SQL files used in the project: stocks_analysis.sql, joins_analysis.sql, asylum_analysis.sql, nationality_analysis.sql, data_quality_checks.sql — all located in /sql/).
-
+```
 
 # 7) Power BI — Report structure, visuals & DAX measures
 
@@ -307,3 +310,4 @@ Prepared by: Reyhan HOROZ— Junior Data Analyst / Engineer
 Email: reyhanhrz53@gmail.com
 
 LinkedIn: linkedin.com/in/reyhan-horoz-bb4839292
+
