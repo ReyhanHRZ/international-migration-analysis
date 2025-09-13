@@ -307,14 +307,16 @@ Countries with the highest inflows in 2021 (in order): Germany (1139.816), Unite
 Data quality note: Some rows in the stocks table contain metrics such as “% of total population” — do not include these in the analysis without converting them to numeric.
 
 
-
+```
 
 Contact & References
 
 Prepared by: Reyhan HOROZ— Junior Data Analyst / Engineer
+
 Email: reyhanhrz53@gmail.com
 
 LinkedIn: linkedin.com/in/reyhan-horoz-bb4839292
+```
 
 
 
