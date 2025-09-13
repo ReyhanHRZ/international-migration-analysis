@@ -267,9 +267,9 @@ Note: Add each measure separately as a “New Measure.” Do not paste them all 
 
 ## Sample Visuals
 
-![Global Inflow Trend](https://raw.githubusercontent.com/ReyhanHRZ/international-migration-analysis/main/dashboards/screenshots/A.png)
-![Top 10 Countries](https://raw.githubusercontent.com/ReyhanHRZ/international-migration-analysis/main/dashboards/screenshots/B.png)
-![Asylum Heatmap](https://raw.githubusercontent.com/ReyhanHRZ/international-migration-analysis/main/dashboards/screenshots/C.png)
+![Global Inflow Trend](https://raw.githubusercontent.com/ReyhanHRZ/international-migration-analysis/screenshots/A.png)
+![Top 10 Countries](https://raw.githubusercontent.com/ReyhanHRZ/international-migration-analysis/main/screenshots/B.png)
+![Asylum Heatmap](https://raw.githubusercontent.com/ReyhanHRZ/international-migration-analysis/main/screenshots/C.png)
 
 
 
@@ -315,5 +315,6 @@ Prepared by: Reyhan HOROZ— Junior Data Analyst / Engineer
 Email: reyhanhrz53@gmail.com
 
 LinkedIn: linkedin.com/in/reyhan-horoz-bb4839292
+
 
 
