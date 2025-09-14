@@ -198,7 +198,7 @@ E. Data Quality and Notes — Missing data table + methodology text box
 Basic DAX measures (Power BI → Modeling → New Measure — add each as a separate measure)
 
 
-
+```
 Total Number of Entries
 
 Total Inflow People =
@@ -206,10 +206,10 @@ CALCULATE(
   SUM(fact_migration[value_people]),
   fact_migration[measure] = "inflow"
 )
+```
 
 
-
-
+```
 Total Outflow People
 
 Total Outflow People =
@@ -217,7 +217,7 @@ CALCULATE(
   SUM(fact_migration[value_people]),
   fact_migration[measure] = "outflow"
 )
-
+```
 
 
 Net Migration People
@@ -226,7 +226,7 @@ Net Migration People = [Total Inflow People] - [Total Outflow People]
 
 
 
-
+```
 Inflow YoY %
 
 Inflow YoY % =
@@ -238,18 +238,18 @@ VAR Prev =
   )
 RETURN
 IF(ISBLANK(Prev), BLANK(), DIVIDE(Curr - Prev, Prev))
+```
 
 
-
-
+```
 Inflow % Share (example)
 
 Inflow % Share =
 VAR TotalThisYear = CALCULATE([Total Inflow People], ALLSELECTED(fact_migration[Country]), fact_migration[Year] = MAX(fact_migration[Year]))
 RETURN DIVIDE([Total Inflow People], TotalThisYear, 0)
+```
 
-
-
+```
 Inflow CAGR (example)
 
 Inflow CAGR =
@@ -260,7 +260,7 @@ VAR EndVal = CALCULATE([Total Inflow People], FILTER(ALL(fact_migration[Year]), 
 VAR Years = Y1 - Y0
 RETURN
 IF(Years <= 0 || StartVal <= 0, BLANK(), POWER(DIVIDE(EndVal, StartVal), 1/Years) - 1)
-
+```
 
 Note: Add each measure separately as a “New Measure.” Do not paste them all into a single DAX window and try to run them — Power BI requires each measure to be registered individually.
 
@@ -316,6 +316,7 @@ Email: reyhanhrz53@gmail.com
 
 LinkedIn: linkedin.com/in/reyhan-horoz-bb4839292
 ```
+
 
 
 
